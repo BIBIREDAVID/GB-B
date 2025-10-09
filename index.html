@@ -237,6 +237,7 @@
             color: #fff;
         }
 
+        
         .contact-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -265,7 +266,7 @@
             padding: 2rem;
         }
 
-        @media (max-width: 968px) {
+@media (max-width: 968px) {
             .menu-toggle {
                 display: flex;
             }
@@ -322,6 +323,7 @@
                 grid-template-columns: 1fr;
             }
         }
+        
     </style>
 </head>
 <body>
@@ -344,13 +346,12 @@
                     <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
                 </ul>
             </nav>
-        </div>
     </header>
 
     <section id="home" class="hero">
         <h1>Excellence in Legal Practice</h1>
         <p>Trusted Legal Counsel Since Inception</p>
-        <a href="#contact" class="cta-button">SCHEDULE CONSULTATION</a>
+        <a href="https://forms.gle/Hu9fotN2h7PJzD6LA" target="_blank" class="cta-button">SCHEDULE CONSULTATION</a>
     </section>
 
     <section id="services" class="section">
@@ -379,6 +380,10 @@
             <div class="service-card">
                 <h3>Intellectual Property</h3>
                 <p>Protection and enforcement of trademarks, patents, copyrights, and other intellectual property rights.</p>
+            </div>
+            <div class="service-card">
+                <h3>Human Rights</h3>
+                <p>Dedicated advocacy for fundamental human rights, civil liberties, and constitutional matters, ensuring justice and protection for individuals and communities.</p>
             </div>
         </div>
     </section>
@@ -423,12 +428,13 @@
                 
                 <div class="contact-item">
                     <strong>Phone:</strong>
-                    +234 (0) 808 705 3706
+                    +234 (0) 818 726 8393
+
                 </div>
                 
                 <div class="contact-item">
                     <strong>Email:</strong>
-                    bibiresanmi@gmail.com
+                    bibiresanmi@gmail.com <br> bibiresanmi@yahoo.com
                 </div>
                 
                 <div class="contact-item">
@@ -464,8 +470,7 @@
         <p>&copy; 2025 Gbenga Bibiresanmi & Associates. All Rights Reserved.</p>
         <p style="margin-top: 0.5rem; font-size: 0.9rem;">Lagos, Nigeria | Professional Legal Services</p>
     </footer>
-
-    <script>
+     <script>
         function toggleMenu() {
             const nav = document.getElementById('mainNav');
             nav.classList.toggle('active');
