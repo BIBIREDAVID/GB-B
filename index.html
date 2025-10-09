@@ -58,12 +58,19 @@
             align-items: center;
         }
 
-        .logo {
+       .logo {
             font-size: 1.5rem;
             font-weight: bold;
             letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
         }
 
+        .logo-icon {
+            font-size: 2rem;
+            color: #c9a961;
+        }
         .logo span {
             color: #c9a961;
         }
@@ -354,8 +361,11 @@
     <header class="header">
         <div class="header-content">
             <div class="logo">
-                <div>Gbenga Bibiresanmi <span>&</span> Associates</div>
-                <div class="logo-subtitle">Legal Practitioners & Consultants</div>
+                <span class="logo-icon">⚖️</span>
+                <div>
+                    <div>Gbenga Bibiresanmi <span>&</span> Associates</div>
+                    <div class="logo-subtitle">Legal Practitioners & Consultants</div>
+                </div>
             </div>
             <div class="menu-toggle" onclick="toggleMenu()">
                 <span></span>
